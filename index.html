@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo do Mario (Jump)</title>
     <link rel="stylesheet" href="_css/style.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <audio src="" autoplay="autoplay"></audio>
     <div class="game-board">
+        <div class="info-board">
+            <div class="scores">
+                <span id="pontos" style="color: white;">01</span>
+            </div>
+            <div class="lifes">
+                <img src="_imagens/heart.png" class="heart">
+                <img src="_imagens/heart.png" class="heart1">
+                <img src="_imagens/heart.png" class="heart2">
+            </div>
+        </div>
         <img src="_imagens/clouds.png" class="clouds">
         <img src="_media/mario.gif" class="mario">
         <img src="_imagens/pipe.png" class="pipe">
+        <img src="_imagens/coin.png" class="coin">
     </div>
 </body>
 <script src="_javascript/script.js" defer></script>
+
 </html>
